@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ">
-    <title>Bokning- Malmö Arena hotelll</title>
+    <title>Bokning - Malmö Arena Hotell</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         .input-container {
@@ -24,7 +24,7 @@
     <header>
         <div class="topDiv">
             <img src="webp.webp" alt="Luxury Hotel logo" class="logo">
-            <img src="välkommen.webp" alt="Luxury hotel bild" class="logo2">
+            <img src="välkommen.webp" alt="Luxury hotel bild" class="logo2">
         </div>
     </header>
 
@@ -39,62 +39,58 @@
     </div>
 
     <div class="contentDiv">
-        <h1>Boka din vistelse på Malmö Arena hoell!</h1>
+        <h1>Boka din vistelse på Malmö Arena Hotell!</h1>
         <p>Fyll i formuläret nedan för att göra din bokning och njuta av din lyxiga vistelse.</p>
-
 
         <div class="input-container">
             <form>
-                <label for="name">fullständiga namn:</label><br>
+                <label for="name">Fullständigt namn:</label><br>
                 <input type="text" id="name" name="name"><br><br>
 
-                <label for="email">Email:</label><br>
+                <label for="email">E-post:</label><br>
                 <input type="email" id="email" name="email"><br><br>
 
                 <label for="date">Incheckningsdatum:</label><br>
                 <input type="date" id="date" name="checkin"><br><br>
 
-                <label for="duration">vistelsetid (dagar):</label><br>
+                <label for="duration">Vistelsetid (dagar):</label><br>
                 <input type="number" id="duration" name="duration" min="1"><br><br>
 
-
-                <label for="roomType">Rum typ:</label><br>
+                <label for="roomType">Rumtyp:</label><br>
                 <select id="roomType" name="roomType">
                     <option value="single">Rum för en</option>
-                    <option value="double"> Rum för två</option>
+                    <option value="double">Rum för två</option>
                     <option value="suite">Svit</option>
-                    <option value="family">Familje rum</option>
+                    <option value="family">Familjerum</option>
                 </select><br><br>
 
-                <input type="submit" class="submitButton" value="Submit">
+                <input type="submit" class="submitButton" value="Skicka">
             </form>
         </div>
 
-
         <div class="input-container">
-            <h2>Vänligen skriv in kort Information</h2>
+            <h2>Vänligen skriv in kortinformation</h2>
             <form action="/submit-payment" method="post">
-                <label for="cardNumber">Kort nummer:</label><br>
+                <label for="cardNumber">Kortnummer:</label><br>
                 <input type="text" id="cardNumber" name="cardNumber" placeholder="XXXX XXXX XXXX XXXX" required><br><br>
 
-                <label for="expiryDate">utgångsdatum:</label><br>
+                <label for="expiryDate">Utgångsdatum:</label><br>
                 <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required><br><br>
 
                 <label for="cvv">CVV:</label><br>
                 <input type="text" id="cvv" name="cvv" placeholder="XXX" required><br><br>
 
-                <label for="nameOnCard">Kort namn:</label><br>
-                <input type="text" id="nameOnCard" name="nameOnCard" placeholder="Your Name" required><br><br>
+                <label for="nameOnCard">Kortnamn:</label><br>
+                <input type="text" id="nameOnCard" name="nameOnCard" placeholder="Ditt namn" required><br><br>
 
-                <button type="Bekräfta" class="submitButton">Betala</button>
+                <button type="submit" class="submitButton">Betala</button>
             </form>
         </div>
     </div>
 
     <div class="footerDiv">
-        <p class="navButton"> Hyllie Boulevard 12, 215 32 Malmö +46 40 642 04 00</p>
+        <p class="navButton">Hyllie Boulevard 12, 215 32 Malmö · +46 40 642 04 00</p>
     </div>
-
 
     <script src="script.js"></script>
 </body>
